@@ -1,0 +1,32 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  margin-bottom: 1.5rem;
+  align-items: center;
+  background-color: #00921b;
+  color: #ffffff;
+  width: 100vw;
+  height: 5vh;
+  padding: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#logo {
+  font-size: 1.75rem;
+  font-weight: 750;
+}
+
+#team {
+  font-size: 1.3rem;
+}
+
+#team span {
+  cursor: pointer;
+  color: yellow;
+  text-decoration: solid underline;
+  text-decoration-thickness: 2px;
+}

@@ -1,0 +1,30 @@
+.aboutUsPage {
+    font-size: 1.25rem;
+}
+
+.aboutUsPage * {
+    margin: 1.25rem;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    margin: 2.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+    .team {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .team {
+        grid-template-columns: repeat(1, 0.5fr);
+    }
+    
+}
